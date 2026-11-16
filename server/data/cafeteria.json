@@ -1,0 +1,94 @@
+{
+  "nextMenuId": 7,
+  "nextPedidoNum": 1002,
+  "menu": [
+    {
+      "id": 1,
+      "codigo": "CAF-LAT-01",
+      "nombre": "Latte Vainilla Artesanal",
+      "descripcion": "Doble espresso arábica con leche texturizada y jarabe natural de vainilla.",
+      "categoria": "Café de Especialidad",
+      "precio": 4.25,
+      "porciones": 18,
+      "tiempoPreparacion": 4,
+      "creado_en": "2026-11-16T03:43:55.011Z",
+      "actualizado_en": "2026-11-16T03:43:55.011Z"
+    },
+    {
+      "id": 2,
+      "codigo": "BEB-CLD-02",
+      "nombre": "Cold Brew Naranja & Caramelo",
+      "descripcion": "Extracción en frío de 16 horas con notas cítricas y hielo cristalino.",
+      "categoria": "Bebidas Frías",
+      "precio": 4.75,
+      "porciones": 5,
+      "tiempoPreparacion": 3,
+      "creado_en": "2026-11-16T03:43:55.011Z",
+      "actualizado_en": "2026-11-16T03:43:55.011Z"
+    },
+    {
+      "id": 4,
+      "codigo": "DES-AVO-04",
+      "nombre": "Tostada Avocado & Huevo Pochado",
+      "descripcion": "Pan de masa madre, aguacate machacado, huevo pochado y semillas de sésamo.",
+      "categoria": "Desayunos",
+      "precio": 7.9,
+      "porciones": 12,
+      "tiempoPreparacion": 8,
+      "creado_en": "2026-11-16T03:43:55.011Z",
+      "actualizado_en": "2026-11-16T03:43:55.011Z"
+    },
+    {
+      "id": 5,
+      "codigo": "POS-VAS-05",
+      "nombre": "Cheesecake Vasco de Frutos Rojos",
+      "descripcion": "Porción cremosa horneada a alta temperatura con coulis artesanal de moras.",
+      "categoria": "Postres",
+      "precio": 5.5,
+      "porciones": 1,
+      "tiempoPreparacion": 3,
+      "creado_en": "2026-11-16T03:43:55.011Z",
+      "actualizado_en": "2026-11-16T03:43:56.802Z"
+    },
+    {
+      "id": 6,
+      "codigo": "0101010101",
+      "nombre": "Bebida POP",
+      "descripcion": "Té verde matcha japonés batido con leche de avena orgánica.",
+      "categoria": "Bebidas Calientes",
+      "precio": 4.9,
+      "porciones": 14,
+      "tiempoPreparacion": 4,
+      "creado_en": "2026-11-16T03:43:55.011Z",
+      "actualizado_en": "2026-11-16T03:45:07.522Z"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1001,
+      "ticket": "PED-1001",
+      "fecha": "2026-11-16T03:43:56.802Z",
+      "clienteNombre": "Cliente en Barra",
+      "tipoServicio": "En mesa",
+      "numeroMesa": "Mesa 4",
+      "metodoPago": "Efectivo",
+      "notas": "",
+      "atendidoPor": "Administrador AromaPOS",
+      "estado": "EN_PREPARACION",
+      "tiempoEstimadoMin": 3,
+      "items": [
+        {
+          "menuId": 5,
+          "codigo": "POS-VAS-05",
+          "nombre": "Cheesecake Vasco de Frutos Rojos",
+          "cantidad": 1,
+          "precioUnitario": 5.5,
+          "subtotalLinea": 5.5
+        }
+      ],
+      "subtotal": 5.5,
+      "impuesto": 0.82,
+      "total": 6.32
+    }
+  ]
+}
